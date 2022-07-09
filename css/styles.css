@@ -5,13 +5,18 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/user-component.css";
+@import "components/screen-header.css";
+@import "components/badge.css";
 
 /* screens */
-@import "screens/screen-header.css";
 @import "screens/login.css";
 @import "screens/freinds.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2F363E;
+}
+
+.main-screen {
+    padding : 0px var(--horizontal-space);
 }
