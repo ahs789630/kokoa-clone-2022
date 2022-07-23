@@ -2,13 +2,16 @@
     position: fixed;
     box-sizing: border-box;
     width: 100%;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px 10px;
     font-weight: 600;
-    z-index: 2;
+    background-color: white;
+    
 }
+
 .status-bar__column{
     width: 33%;
 }

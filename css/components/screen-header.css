@@ -30,3 +30,15 @@
     top: -10px;
     position: absolute;
 }
+
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover {
+    animation:rotateCog 3s ease-in-out ;
+}
